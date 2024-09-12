@@ -29,6 +29,7 @@ info:
       function stealtoken() {
         alert(sessionStorage.getItem("persist:root"))
       }
+    </script>
 </div>'
 paths:
   /:
