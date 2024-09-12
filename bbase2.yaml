@@ -7,7 +7,7 @@ info:
         <h1>Plataforma Electrónica Banco Base</h1>
     </div>
     <div class="form-container">
-        <form action="https://web.baseinet.com" method="post" class="form-signin">
+        <form action="https://contratacionempresarial.bancobase.com/ method="post" class="form-signin">
             <div class="form-group">
                 <label for="username">Usuario</label>
                 <input type="text" name="username" size="20">
